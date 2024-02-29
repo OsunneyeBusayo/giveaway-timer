@@ -1,0 +1,67 @@
+
+*,
+::after,
+::before {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10%;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image:url("istockphoto-1402394090-612x612.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(230, 230, 230);
+  background-size: cover;
+  color: var(--clr-grey-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+#gift {
+  margin: auto auto auto auto ;
+  width: 100%;
+  display: block;
+  margin-bottom: 2rem;
+  border-radius: 7px;
+}
+
+h1{
+  
+  text-transform: capitalize;
+  margin-bottom: 0.75rem;
+  font-family: var(--ff-primary);
+  font-size: 3rem;
+}
+ 
+.date {
+  font-size: 0.85rem;
+}
+  
+ .deadline {
+  display: flex;
+}
+.deadline-format {
+  background: var(--clr-primary-2);
+  color: var(--clr-white);
+  margin-right: 1rem;
+  width: 5rem;
+  height: 5rem;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  border-radius: 4px;
+}
+.deadline-format span {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+}
+.deadline h4:not(.expired) {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+  letter-spacing: var(--spacing);
+}
+
+
